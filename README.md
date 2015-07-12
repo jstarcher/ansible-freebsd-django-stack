@@ -1,4 +1,4 @@
-ansible-django-stack
+ansible-freebsd-django-stack
 ====================
 
 Ansible Playbook designed for environments running a Django app.  It can install and configure these applications that are commonly used in production Django deployments:
@@ -14,9 +14,7 @@ Ansible Playbook designed for environments running a Django app.  It can install
 
 Default settings are stored in ```roles/role_name/vars/main.yml```.  Environment-specific settings are in the ```env_vars``` directory.
 
-**Tested with OS:** Ubuntu 12.04 LTS x64, Ubuntu 14.04 LTS x64
-
-**Tested with Cloud Providers:** [Digital Ocean](https://www.digitalocean.com/?refcode=5aa134a379d7), [Amazon](https://aws.amazon.com), [Rackspace](http://www.rackspace.com/)
+**Tested with OS:** FreeBSD 9.1
 
 ## Getting Started
 
